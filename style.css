@@ -95,6 +95,20 @@ a {
     box-shadow: 0 8px 25px rgba(108, 92, 231, 0.6);
 }
 
+.btn-secondary {
+    background: transparent;
+    border: 2px solid var(--primary);
+    color: var(--text-main);
+    margin-left: 15px;
+}
+
+.btn-secondary:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(108, 92, 231, 0.6);
+}
+
 /* Navigation */
 .navbar {
     position: fixed;
